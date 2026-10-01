@@ -26,7 +26,7 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 | **Liquids** | Original water / lava graphics, now gently animated; lava keeps its blazing 2009 colours. |
 | **Bedrock** | The speckled Classic-to-Beta bedrock instead of the 1.14 redesign. |
 | **Torches** | Torch, soul torch and redstone torch with their own chunky models. |
-| **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron (trapdoors are hole-less too).<br>• Ruby, raw ores, nether star, pufferfish. |
+| **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron (trapdoors too, except bamboo).<br>• Ruby, raw ores, nether star, pufferfish. |
 | **Mobs** | Grey creeper (by ArkyFursblack), grey ender dragon and Steve. |
 | **Sky & Art** | Sun, moon phases, end sky, the *sea* and *stage* paintings, and the spyglass scope. |
 
