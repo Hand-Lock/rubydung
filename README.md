@@ -18,7 +18,7 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 | **Stone Family** | • *Pre-classic* stone everywhere—deepslate, granite, and friends all inherit the raw RubyDung pattern.<br>• Ores are simply overlaid on that same stone to keep the look cohesive, **with some additional shadows / highlighting for hard-to-see colour combinations (like coal).** |
 | **Ruby** | Emerald becomes **Ruby**, a nod to the name: red gem, red ore and a Block of Ruby, renamed in-game too (English). |
 | **Cobble & Moss** | Cobblestone uses a **post-beta 1.7** shape but with the fierce contrast of the earlier era.<br>Mossy cobble follows suit (because mossy *stone* made zero sense). |
-| **Grass & Foliage** | Top-only **bright-green** grass (pair with my [Fast Better Grass: Untinted Edition](https://modrinth.com/resourcepack/fast-better-grass-untinted-edition) for full-block coverage).<br>First-ever leaves + faithful recolours for every modern wood type.<br>Earliest sapling sprite, adapted across all species.<br>The blue orchid becomes the **Cyan Flower**. |
+| **Grass & Foliage** | Top-only **bright-green** grass (pair with my [Fast Better Grass: Untinted Edition](https://modrinth.com/resourcepack/fast-better-grass-untinted-edition) for full-block coverage).<br>First-ever leaves + faithful recolours for every modern wood type; leaves keep their own colours (no biome tint).<br>Earliest sapling sprite, adapted across all species.<br>The blue orchid becomes the **Cyan Flower**. |
 | **Wood & Planks** | The lone RubyDung plank palette, palettized to each modern log—surprisingly classy! Every log shares the same old-school end. |
 | **Sand, Gravel & Derivatives** | Original coarse textures for sand & gravel, with matching sandstone / suspicious variants. |
 | **Glass & Ice** | • Ice → the *very* first glass sprite (opaque, frosty).<br>• Glass → the border-less second-iteration texture, plus stained & tinted adaptations. |
@@ -32,8 +32,8 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 
 ## 🗺️ **Compatibility & Pack Order**  
 - Made for **Minecraft 1.20.1** only.  
-- Place **RubyDung: Pre-Classic Revival** **above** any Beta/Programmer Art packs to avoid overrides.  
-- Recommended bases: **Golden Days (+Alpha Add-on)** or **PACP+ (+Alpha/Beta Add-ons)**.
+- **An Alpha-style base pack is required** underneath: **Golden Days Base + Golden Days Alpha**, or **PACP+ with its Beta and Alpha Add-ons**.  
+- RubyDung only adds the RubyDung and early-Minecraft textures those packs lack; place it **above** the base.
 
 ---
 

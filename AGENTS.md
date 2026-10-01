@@ -3,7 +3,10 @@
 RubyDung is a Minecraft 1.20.1 resource pack that brings back the 2009
 pre-Classic textures (the `rd-*` builds that still carried the name of
 Notch's earlier game, RubyDung) and extends their style to modern blocks
-and items. Product direction and coverage live in [SPEC.md](SPEC.md);
+and items. It is an add-on over a required Alpha-style base pack (Golden
+Days Base + Alpha, or PACP+ with its Beta and Alpha add-ons) and ships only
+the textures those packs lack (ADR 0007). Product direction and coverage
+live in [SPEC.md](SPEC.md);
 decisions and their reasons live in [docs/adr/](docs/adr/); bootstrapping
 knowledge lives in [docs/reference/](docs/reference/). Read them before
 changing the look, the file layout or compatibility.
@@ -32,6 +35,8 @@ changing the look, the file layout or compatibility.
   per wood type (`tools/palette.py remap`).
 - High contrast, few colours, no smooth gradients or anti-aliasing.
 - Emerald is Ruby (red gem, lang renames); blue orchid is the Cyan Flower.
+- A coloured texture of a tinted block (leaves, grass, vines…) needs a
+  pack model without `tintindex`, or is left to the base pack (ADR 0007).
 
 ## Hygiene
 
@@ -55,7 +60,7 @@ assets/minecraft/
   textures/environment/   sun, moon phases, end sky
   textures/painting/, misc/   two paintings, spyglass scope
   models/block/           logs (shared oak_log_top end), torches,
-                          mineral blocks
+                          mineral blocks, untinted leaves
   lang/en_us.json         Ruby and Cyan Flower renames
 tools/
   check.sh                offline checks (see below)

@@ -15,8 +15,9 @@ extends their style to the blocks and items that came later.
   on the roadmap, not in the pack).
 - **Vanilla files only** (ADR 0002): textures, `.mcmeta` animations,
   models, lang. No OptiFine features.
-- **Fill gaps from a base pack.** The pack covers what had a 2009 look or a
-  clear extrapolation; a Beta/Alpha base pack below it covers the rest.
+- **An add-on over a required Alpha-style base** (ADR 0007). The pack
+  covers what had a 2009 look or a clear extrapolation; the base pack below
+  it covers the rest.
 
 ## Compatibility
 
@@ -30,8 +31,9 @@ extends their style to the blocks and items that came later.
 Pack order, top to bottom:
 
 1. RubyDung: Pre-Classic Revival
-2. A Beta/Alpha base: Golden Days (+ Alpha add-on) or PACP+ (+ Alpha/Beta
-   add-ons) recommended; Programmer Art works too
+2. Required Alpha-style base, one of:
+   - Golden Days Base + Golden Days Alpha
+   - PACP+ with its Beta and Alpha add-ons
 
 ## Coverage
 
@@ -132,7 +134,9 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 
 - Other Minecraft versions.
 - OptiFine CTM, CIT, CEM or random entities.
-- Full coverage. The base pack covers what has no 2009 counterpart.
+- Standalone use / full coverage. The base pack covers what has no 2009
+  counterpart; alone, or on Programmer Art or vanilla, the pack is
+  incomplete.
 
 ## Distribution
 
