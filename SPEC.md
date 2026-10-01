@@ -37,7 +37,7 @@ Pack order, top to bottom:
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 202 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 198 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
@@ -56,7 +56,7 @@ textures, 25 of 582 item textures.
 | Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry (placed cherry logs via `cherry_log_x/y/z`) | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
 | Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
 | Saplings | oak, spruce, birch, jungle, acacia, dark oak, cherry | Classic 0.0.11a sapling, re-palettised |
-| Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item; the mangrove and bamboo door tops are the base's (identical, ADR 0009) |
+| Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item; the mangrove and bamboo doors, and the crimson and warped door bottoms, are the base's (identical, ADR 0009) |
 | Trapdoors | oak, jungle, acacia, mangrove, cherry, crimson, warped, iron | the base trapdoor with its holes filled from the pack's door bottom; spruce, birch and dark oak are already solid in the base |
 | Glass | glass, tinted glass, all 16 stained glass; their pane edges | border-less second glass sprite; pane edges are its middle two columns |
 | Ice | ice, packed ice, blue ice, frosted ice (all stages) | ice is the first, opaque glass sprite |
