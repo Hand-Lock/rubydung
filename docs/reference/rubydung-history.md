@@ -69,7 +69,9 @@ the other rows are what the pack's author describes.
 | `block/grass_block_top` | rd grass (tile 0), bright green | |
 | `block/ice` | the first (opaque) glass sprite | |
 | `block/glass`, stained, tinted | the border-less second glass sprite | |
-| water, lava | the early liquid graphics, static | |
+| `block/water_still`, `water_flow` | rd-161348 tile 14, greyscale for the vanilla tint; still drifts 1 px diagonally per frame (16 frames), flow is the tile 2x2 scrolling down (32 frames). Pre-0.0.19a water was static, so the motion is derived | checked |
+| `block/lava_still`, `lava_flow` | rd-161348 tile 30 in its exact colours, animated like water | checked |
+| `block/bedrock` | rd-161348 tile 17, unchanged (the Classic-to-Beta bedrock) | checked |
 | `block/cobblestone`, mossy | post-Beta 1.7 shape with pre-Classic contrast | |
 
 When a texture has no 2009 counterpart, see ADR 0003 for how to derive it.

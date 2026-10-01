@@ -16,8 +16,8 @@ extends their style to the blocks and items that came later.
 - **Vanilla files only** (ADR 0002): textures, `.mcmeta` animations,
   models, lang. No OptiFine features.
 - **An add-on over a required Alpha-style base** (ADR 0007). The pack
-  covers what had a 2009 look or a clear extrapolation; the base pack below
-  it covers the rest.
+  covers what had a 2009 look or a clear extrapolation, and only where it
+  differs from the base (ADR 0009); the base pack below it covers the rest.
 
 ## Compatibility
 
@@ -37,7 +37,7 @@ Pack order, top to bottom:
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 153 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 154 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
@@ -57,8 +57,8 @@ textures, 25 of 582 item textures.
 | Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item |
 | Glass | glass, tinted glass, all 16 stained glass | border-less second glass sprite |
 | Ice | ice, packed ice, blue ice, frosted ice (all stages) | ice is the first, opaque glass sprite |
-| Liquids | water (still, flow, overlay), lava (still, flow) | static |
-| Other | TNT, cobweb, cyan flower (blue orchid), bricks, end stone, end stone bricks | |
+| Liquids | water (still, flow, overlay), lava (still, flow) | animated by scrolling the 2009 tiles; water greyscale (vanilla tint), lava in its 2009 colours |
+| Other | TNT, cobweb, cyan flower (blue orchid), bricks, end stone, end stone bricks, bedrock | bedrock is rd-161348 tile 17, the Classic-to-Beta texture |
 | Torches | torch, soul torch, redstone torch (on, off) | own models (Blockbench), floor and wall |
 
 ### Items
@@ -96,7 +96,6 @@ textures, 25 of 582 item textures.
 From the setup audit (2026-10-01). Each one is either a roadmap item or a
 `tools/check.sh` warning.
 
-- **Liquids are static.** Water and lava have one frame each.
 - **Biome tint.** Vanilla tints grass, leaves and some plants. The leaves
   are coloured textures, so the pack gives them `cube_all` models without
   `tintindex`. `grass_block_top` is coloured too, so the pack's
@@ -108,8 +107,8 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 - **Cherry logs** in the world use the vanilla `cherry_log_x/y/z` models,
   so their ends stay vanilla; only the item uses the `oak_log_top` end.
   `cherry_log_horizontal.json` is unused.
-- **Dirt and grass side** aren't covered, although rd-160052 has tiles for
-  both. Dirt comes from the base pack.
+- **Dirt, grass side and the "new stone"** of rd-160052 aren't covered:
+  they are identical to Golden Days, so the base shows them (ADR 0009).
 - **Unused files** (check.sh warnings; they do nothing in game):
   - `_alt` textures: blackstone, chiseled and cut sandstone, cobblestone,
     mossy cobblestone, emerald ore, deepslate emerald ore, emerald block,
@@ -122,11 +121,10 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 ## Roadmap
 
 - **R1 — 1.0.0**: first release of the current pack, with the setup fixes.
-- **R2 — Liquids**: animated water and lava from the early liquid tiles;
-  decide the biome tint question for water.
+- **R2 — Liquids**: done. Water and lava scroll their 2009 tiles; water
+  keeps its vanilla tint.
 - **R3 — Gear**: shield via `entity/shield_base*.png`; studded-leather
-  armor repurposed for netherite (`models/armor/netherite_layer_1/2.png`);
-  dirt and grass side from rd-160052.
+  armor repurposed for netherite (`models/armor/netherite_layer_1/2.png`).
 - **R4 — UI 2009**: an optional sub-pack for the GUI, which needs an ADR
   (it breaks "one look").
 

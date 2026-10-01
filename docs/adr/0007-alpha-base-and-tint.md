@@ -1,7 +1,7 @@
 # 0007. An add-on over an Alpha base; untint only what the pack colours
 
 Date: 2026-10-01
-Status: Accepted; the grass block bullet is superseded by 0008
+Status: Accepted; the grass block bullet is superseded by 0008; refined by 0009
 
 ## Context
 

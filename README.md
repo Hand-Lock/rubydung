@@ -22,7 +22,8 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 | **Wood & Planks** | The lone RubyDung plank palette, palettized to each modern log—surprisingly classy! Every log shares the same old-school end. |
 | **Sand, Gravel & Derivatives** | Original coarse textures for sand & gravel, with matching sandstone / suspicious variants. |
 | **Glass & Ice** | • Ice → the *very* first glass sprite (opaque, frosty).<br>• Glass → the border-less second-iteration texture, plus stained & tinted adaptations. |
-| **Liquids** | Original water / lava graphics (currently *static*—animations planned). |
+| **Liquids** | Original water / lava graphics, now gently animated; lava keeps its blazing 2009 colours. |
+| **Bedrock** | The speckled Classic-to-Beta bedrock instead of the 1.14 redesign. |
 | **Torches** | Torch, soul torch and redstone torch with their own chunky models. |
 | **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron.<br>• Ruby, raw ores, nether star, pufferfish. |
 | **Mobs** | Grey creeper (by ArkyFursblack), grey ender dragon and Steve. |
@@ -38,7 +39,6 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 ---
 
 ## 🚧 **Roadmap**  
-- Animate classic water & lava.  
 - White RubyDung shield, and the unused studded-leather armor repurposed for Netherite.  
 - Optional “UI 2009” sub-pack.
 

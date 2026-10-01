@@ -21,7 +21,9 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - The grass top and the leaves keep their own colours: no biome or fixed tint.
 - Hole-less doors for every wood and iron, block and item.
 - Border-less glass, stained and tinted; ice as the first, opaque glass.
-- Static early water and lava.
+- Animated early water, and lava in its 2009 colours.
+- The Classic-to-Beta bedrock, replacing the 1.14 redesign the base
+  packs leave in place.
 - Iron, gold, diamond, ruby, netherite and copper blocks; TNT, cobweb,
   bricks, end stone.
 - Torches, soul and redstone torches with their own models.
