@@ -40,7 +40,7 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 ---
 
 ## 🚧 **Roadmap**  
-- White RubyDung shield, and the unused studded-leather armor repurposed for Netherite.  
+- White RubyDung shield.  
 - Optional “UI 2009” sub-pack.
 
 ---
