@@ -27,7 +27,11 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - Iron, gold, diamond, ruby, netherite and copper blocks; TNT, cobweb,
   bricks, end stone.
 - Torches, soul and redstone torches with their own models.
-- The blue orchid becomes the Cyan Flower.
+- The blue orchid becomes the Cyan Flower, potted too.
+- The renames also apply in British, Australian, Canadian and New Zealand
+  English.
+- Deepslate and blackstone tops match their sides; placed cherry logs
+  get the shared log end.
 - Double-headed axes in every tier, black flint and steel, raw ores,
   nether star, pufferfish.
 - Grey creeper (by ArkyFursblack), grey ender dragon, Steve.

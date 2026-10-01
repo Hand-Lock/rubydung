@@ -23,7 +23,8 @@ changing the look, the file layout or compatibility.
 - Vanilla files only: textures, `.mcmeta` animations, models, blockstates,
   lang. No OptiFine (CTM, CIT, CEM, random entities), no mod-only files.
 - `assets/minecraft/lang/*.json` only renames things that exist (the Ruby
-  and Cyan Flower renames); keys must exist in vanilla.
+  and Cyan Flower renames); keys must exist in vanilla. The English
+  locales other than en_us have their own strings, so each gets a copy.
 
 ## Art direction (ADR 0003)
 
@@ -62,7 +63,10 @@ assets/minecraft/
   models/block/           logs (shared oak_log_top end), torches,
                           mineral blocks, untinted leaves
                           and grass block
-  lang/en_us.json         Ruby and Cyan Flower renames
+  lang/en_*.json          Ruby and Cyan Flower renames (en_us, copied
+                          to en_gb, en_au, en_ca, en_nz)
+future/assets/            textures for blocks newer than 1.20.1 (pale
+                          oak, copper doors); not shipped, for the port
 tools/
   check.sh                offline checks (see below)
   build.sh                dist/rubydung-<version>+1.20.1.zip from git archive

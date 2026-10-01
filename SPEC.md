@@ -37,21 +37,21 @@ Pack order, top to bottom:
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 154 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 156 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
 
 | Group | Covered | Notes |
 |---|---|---|
-| Stone | stone, andesite, diorite, granite, tuff, calcite, deepslate, cobbled deepslate, blackstone | RubyDung rock pattern, recoloured |
+| Stone | stone, andesite, diorite, granite, tuff, calcite, deepslate, cobbled deepslate, blackstone | RubyDung rock pattern, recoloured; deepslate and blackstone tops are the side texture |
 | Ores | coal, iron, gold, copper, lapis, redstone, diamond, ruby (emerald); all eight in deepslate too | ore pattern on RubyDung stone |
 | Cobblestone | cobblestone, mossy cobblestone | post-Beta 1.7 shape, pre-Classic contrast |
 | Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, copper (plain, exposed, weathered, oxidized) | cube_all models for the first five |
 | Sand and gravel | sand, gravel, sandstone (side, top, bottom), cut and chiseled sandstone, suspicious sand and gravel (all stages) | |
 | Grass | grass block top | bright green, top only; untinted `grass_block.json` (`cube_bottom_top`, no side overlay, as Golden Days Alpha) |
 | Wood: planks | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped | RubyDung plank, re-palettised |
-| Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
+| Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry (placed cherry logs via `cherry_log_x/y/z`) | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
 | Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
 | Saplings | oak, spruce, birch, jungle, acacia, dark oak, cherry | Classic 0.0.11a sapling, re-palettised |
 | Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item |
@@ -81,7 +81,7 @@ textures, 25 of 582 item textures.
 | Paintings: sea, stage | |
 | Spyglass scope | |
 
-### Lang (`en_us` only)
+### Lang (`en_us`, copied to `en_gb`, `en_au`, `en_ca`, `en_nz`)
 
 | Vanilla | RubyDung |
 |---|---|
@@ -89,7 +89,7 @@ textures, 25 of 582 item textures.
 | Emerald Ore, Deepslate Emerald Ore | Ruby Ore, Deepslate Ruby Ore |
 | Block of Emerald | Block of Ruby |
 | Emerald Material (armor trims) | Ruby Material |
-| Blue Orchid | Cyan Flower |
+| Blue Orchid, Potted Blue Orchid | Cyan Flower, Potted Cyan Flower |
 
 ## Known gaps
 
@@ -104,9 +104,6 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
   Water is greyscale, as vanilla, so its tint is fine.
 - **Shield**: `item/shield.png` does nothing; 1.20.1 draws the shield from
   `entity/shield_base*.png`.
-- **Cherry logs** in the world use the vanilla `cherry_log_x/y/z` models,
-  so their ends stay vanilla; only the item uses the `oak_log_top` end.
-  `cherry_log_horizontal.json` is unused.
 - **Dirt, grass side and the "new stone"** of rd-160052 aren't covered:
   they are identical to Golden Days, so the base shows them (ADR 0009).
 - **Unused files** (check.sh warnings; they do nothing in game):
@@ -115,8 +112,9 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
     redstone torch (on, off), fire 0/1, soul fire 0/1; models
     `template_torch_alt`, `template_torch_wall_alt`.
   - `mossy_stone.png` (no such block).
-  - Pale oak (door, leaves, log, planks, sapling, item door) and copper
-    doors: these blocks arrive after 1.20.1.
+- **Newer blocks.** Pale oak (door, leaves, log, planks, sapling, item
+  door) and copper doors arrive after 1.20.1. Their textures wait in
+  `future/`, which `tools/build.sh` doesn't ship, for the port.
 
 ## Roadmap
 

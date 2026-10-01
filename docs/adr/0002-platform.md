@@ -26,7 +26,7 @@ nobody tests there yet.
 
 ## Consequences
 
-- Textures for blocks newer than 1.20.1 (pale oak, copper doors) do nothing
-  and are reported by check.sh as unused.
+- Textures for blocks newer than 1.20.1 (pale oak, copper doors) would do
+  nothing, so they live in `future/`, outside the shipped `assets/`.
 - Widening the version range needs a new ADR that supersedes this one,
   with overlays and per-version checks as Billy Boarding does.
