@@ -34,10 +34,11 @@ Pack order, top to bottom:
 2. Required Alpha-style base, one of:
    - Golden Days Base + Golden Days Alpha
    - PACP+ with its Beta and Alpha add-ons
+3. Programmer Art (built into Minecraft)
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 198 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 193 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
@@ -56,12 +57,12 @@ textures, 25 of 582 item textures.
 | Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry (placed cherry logs via `cherry_log_x/y/z`) | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
 | Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
 | Saplings | oak, spruce, birch, jungle, acacia, dark oak, cherry | Classic 0.0.11a sapling, re-palettised |
-| Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item; the mangrove and bamboo doors, and the crimson and warped door bottoms, are the base's (identical, ADR 0009) |
+| Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item; the mangrove and bamboo doors, and the crimson and warped door bottoms, are the base's (identical, ADR 0009); the oak and iron door bottoms are Programmer Art's (identical, ADR 0011) |
 | Trapdoors | oak, jungle, acacia, mangrove, cherry, crimson, warped, iron | the base trapdoor with its holes filled from the pack's door bottom; spruce, birch and dark oak are already solid in the base |
 | Glass | glass, tinted glass, all 16 stained glass; their pane edges | border-less second glass sprite; pane edges are its middle two columns |
 | Ice | ice, packed ice, blue ice, frosted ice (all stages) | ice is the first, opaque glass sprite |
 | Liquids | water (still, flow, overlay), lava (still, flow) | animated by scrolling the 2009 tiles; water greyscale (vanilla tint), lava in its 2009 colours |
-| Other | TNT, cobweb, cyan flower (blue orchid), bricks, end stone, end stone bricks, bedrock | bedrock is rd-161348 tile 17, the Classic-to-Beta texture |
+| Other | TNT side, cobweb, cyan flower (blue orchid), bricks, end stone, end stone bricks | the TNT top and bottom and the bedrock (rd-161348 tile 17) are Programmer Art's (identical, ADR 0011) |
 | Torches | torch, soul torch, redstone torch (on, off) | own models (Blockbench), floor and wall |
 
 ### Items
@@ -117,6 +118,9 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 - **Bamboo trapdoor** keeps its holes: the pack's bamboo door has them too.
 - **Dirt, grass side and the "new stone"** of rd-160052 aren't covered:
   they are identical to Golden Days, so the base shows them (ADR 0009).
+- **Bedrock, TNT top and bottom, oak and iron door bottoms** aren't
+  shipped: they are identical to Programmer Art, which no base overrides
+  there (ADR 0011). Without Programmer Art they are vanilla's.
 - **Unused files** (check.sh warnings; they do nothing in game):
   - `_alt` textures: blackstone, chiseled and cut sandstone, cobblestone,
     mossy cobblestone, emerald ore, deepslate emerald ore, emerald block,
@@ -141,7 +145,7 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 - Other Minecraft versions.
 - OptiFine CTM, CIT, CEM or random entities.
 - Standalone use / full coverage. The base pack covers what has no 2009
-  counterpart; alone, or on Programmer Art or vanilla, the pack is
+  counterpart; alone, or on Programmer Art or vanilla only, the pack is
   incomplete.
 
 ## Distribution

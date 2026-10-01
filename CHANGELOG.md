@@ -5,6 +5,12 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 
 ## [Unreleased]
 
+### Changed
+
+- Programmer Art is now required at the bottom, under the base pack;
+  bedrock, the TNT top and bottom, and the oak and iron door bottoms come
+  from it.
+
 ### Added
 
 - First release: the May 2009 pre-Classic ("RubyDung") textures for
@@ -22,8 +28,6 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - Hole-less doors for every wood and iron, block and item.
 - Border-less glass, stained and tinted; ice as the first, opaque glass.
 - Animated early water, and lava in its 2009 colours.
-- The Classic-to-Beta bedrock, replacing the 1.14 redesign the base
-  packs leave in place.
 - Red sand and red sandstone (plain, cut, chiseled) in the sandstone shapes.
 - Lapis, redstone and coal blocks with the mineral block shine; raw iron,
   gold and copper blocks on the rock pattern.

@@ -1,7 +1,7 @@
 # 0009. Ship only what differs from the base
 
 Date: 2026-10-01
-Status: Accepted; refines 0007
+Status: Accepted; refines 0007; refined by 0011
 
 ## Context
 

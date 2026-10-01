@@ -24,7 +24,6 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 | **Mineral Blocks** | Iron, gold, diamond, ruby, netherite, lapis, redstone and coal blocks share one shiny 2009-style pattern, and cut copper splits it into four panels; raw iron, gold and copper blocks use the RubyDung rock pattern. |
 | **Glass & Ice** | • Ice → the *very* first glass sprite (opaque, frosty).<br>• Glass → the border-less second-iteration texture, plus stained & tinted adaptations; pane edges match. |
 | **Liquids** | Original water / lava graphics, now gently animated; lava keeps its blazing 2009 colours. |
-| **Bedrock** | The speckled Classic-to-Beta bedrock instead of the 1.14 redesign. |
 | **Torches** | Torch, soul torch and redstone torch with their own chunky models. |
 | **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron (trapdoors too, except bamboo).<br>• Ruby, raw ores, nether star, pufferfish. |
 | **Mobs** | Grey creeper (by ArkyFursblack), grey ender dragon and Steve. |
@@ -35,6 +34,7 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 ## 🗺️ **Compatibility & Pack Order**  
 - Made for **Minecraft 1.20.1** only.  
 - **An Alpha-style base pack is required** underneath: **Golden Days Base + Golden Days Alpha**, or **PACP+ with its Beta and Alpha Add-ons**.  
+- **Programmer Art** (built into Minecraft) goes at the very bottom, under the base.  
 - RubyDung only adds the RubyDung and early-Minecraft textures those packs lack; place it **above** the base.
 
 ---
