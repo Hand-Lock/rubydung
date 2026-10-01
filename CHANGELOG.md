@@ -24,6 +24,9 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - Animated early water, and lava in its 2009 colours.
 - The Classic-to-Beta bedrock, replacing the 1.14 redesign the base
   packs leave in place.
+- Red sand and red sandstone (plain, cut, chiseled) in the sandstone shapes.
+- Lapis, redstone and coal blocks with the mineral block shine; raw iron,
+  gold and copper blocks on the rock pattern.
 - Iron, gold, diamond, ruby, netherite and copper blocks; TNT, cobweb,
   bricks, end stone.
 - Torches, soul and redstone torches with their own models.

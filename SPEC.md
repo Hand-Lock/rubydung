@@ -37,7 +37,7 @@ Pack order, top to bottom:
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 156 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 168 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
@@ -47,8 +47,9 @@ textures, 25 of 582 item textures.
 | Stone | stone, andesite, diorite, granite, tuff, calcite, deepslate, cobbled deepslate, blackstone | RubyDung rock pattern, recoloured; deepslate and blackstone tops are the side texture |
 | Ores | coal, iron, gold, copper, lapis, redstone, diamond, ruby (emerald); all eight in deepslate too | ore pattern on RubyDung stone |
 | Cobblestone | cobblestone, mossy cobblestone | post-Beta 1.7 shape, pre-Classic contrast |
-| Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, copper (plain, exposed, weathered, oxidized) | cube_all models for the first five |
-| Sand and gravel | sand, gravel, sandstone (side, top, bottom), cut and chiseled sandstone, suspicious sand and gravel (all stages) | |
+| Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, lapis, redstone, coal, copper (plain, exposed, weathered, oxidized) | the iron block shine, recoloured; cube_all models for the first five |
+| Raw ore blocks | raw iron, raw gold, raw copper | RubyDung rock pattern in the raw item's colours; green patina in raw copper's cracks |
+| Sand and gravel | sand, gravel, sandstone (side, top, bottom), cut and chiseled sandstone, suspicious sand and gravel (all stages); red sand and the same red sandstone set | red ones are the pack's sand family recoloured to vanilla red sand, keeping each pixel's brightness |
 | Grass | grass block top | bright green, top only; untinted `grass_block.json` (`cube_bottom_top`, no side overlay, as Golden Days Alpha) |
 | Wood: planks | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped | RubyDung plank, re-palettised |
 | Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry (placed cherry logs via `cherry_log_x/y/z`) | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
