@@ -42,13 +42,15 @@ predates the 0.0.13a redraw.
 | rd-132328 | May 13 | 0, 1 | Same `terrain.png` as rd-132211. Adds `char.png`, the humanoid mob (its model came from Notch's *Zombie Town*). |
 | rd-20090515 | May 15 | = rd-161348 | Launcher runs rd-161348. The real build added cobblestone (the old rock pattern, lower contrast), dirt, planks, a three-texture grass block and a new stone. |
 | rd-160052 | May 15/16 | 0 grass, 1 stone, 2 dirt, 3 grass side, 4 planks (pinkish), 16 cobblestone | Closest to the real rd-20090515 set. |
-| rd-161348 | May 16 | 0–4, 13–17, 30, 31 | 0.0.13a sheet: 4 planks (tan), 13/14 water, 15 sapling (0.0.13a), 16 cobblestone, 17 bedrock, 30 lava, 31 a grass-like tile. Real rd-161348 added the sapling (hidden on key 6 because Notch disliked it) and redrew planks. |
+| rd-161348 | May 16 | 0–4, 13–17, 30, 31 | 0.0.13a sheet: 4 planks (tan), 13/14 water, 15 sapling (0.0.13a), 16 cobblestone, 17 bedrock, 30 lava, 31 identical to tile 0 (the grass top; also in c0.0.11a), so nothing to use. Real rd-161348 added the sapling (hidden on key 6 because Notch disliked it) and redrew planks. |
 | c0.0.11a | May 17 | 0–4, 15, 16, 31 | 15 is the earliest sapling sprite. |
 
 Later firsts the pack uses, outside these jars:
 
 - Classic 0.0.14a (May 27): coal, iron and gold ore, sand, gravel, oak
-  logs and leaves.
+  logs and leaves. The pack doesn't use the 0.0.14a ores, which sit on
+  the later Classic stone: its ores are the ore pattern on rd stone
+  (ADR 0003). That is settled; a port shouldn't reopen it.
   ([0.0.14a](https://minecraft.wiki/w/Java_Edition_Classic_0.0.14a))
 - Classic 0.0.19a: glass; 0.0.19a_01 used the border-less development
   texture, 0.0.19a_02 added the border.
@@ -64,7 +66,7 @@ the other rows are what the pack's author describes.
 | `block/stone` | rd-132211 tile 1 (rock), unchanged | checked |
 | andesite, deepslate | rd rock pattern, recoloured | checked |
 | diorite, granite, tuff, calcite, blackstone, ores | rd rock pattern, recoloured; ores overlaid | |
-| planks (all woods) | rd planks pattern (tile 4), re-palettised | checked |
+| planks (all woods) | rd planks pattern (tile 4), re-palettised. rd-160052 (pinkish) and rd-161348 (tan) share the shape; the oak colours are neither, but Alpha oak: 24 of 256 pixels differ from Golden Days oak planks | checked |
 | saplings (all woods) | c0.0.11a tile 15, re-palettised | checked |
 | `block/grass_block_top` | rd grass (tile 0), bright green | |
 | `block/ice` | the first (opaque) glass sprite | |

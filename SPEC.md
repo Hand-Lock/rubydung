@@ -107,6 +107,14 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
   Water is greyscale, as vanilla, so its tint is fine.
 - **Shield**: `item/shield.png` does nothing; 1.20.1 draws the shield from
   `entity/shield_base*.png`.
+- **Other default skins.** rd-132328's `char.png` (the same in rd-160052,
+  rd-161348 and c0.0.11a) is the pack's `player/wide/steve`. Offline
+  players can get any of the other 17 default skins (Alex and the seven
+  others, wide and slim); Golden Days covers Alex and slim Steve, the rest
+  stay vanilla.
+- **Stripped log tops** stay with the base: it gives each wood the oak end's
+  rings in its own colours, the pack's re-palettising rule.
+- **Bamboo trapdoor** keeps its holes: the pack's bamboo door has them too.
 - **Dirt, grass side and the "new stone"** of rd-160052 aren't covered:
   they are identical to Golden Days, so the base shows them (ADR 0009).
 - **Unused files** (check.sh warnings; they do nothing in game):
