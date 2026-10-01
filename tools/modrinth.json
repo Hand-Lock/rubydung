@@ -1,0 +1,9 @@
+{
+  "project_id": "WHfjy2pa",
+  "loaders": ["minecraft"],
+  "version_type": "release",
+  "game_versions": ["1.20.1"],
+  "dependencies": [
+    { "project_id": "2bXJhCck", "dependency_type": "optional" }
+  ]
+}

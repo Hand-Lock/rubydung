@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tools/check.sh)",
+      "Bash(./tools/check.sh)",
+      "Bash(tools/build.sh:*)",
+      "Bash(./tools/build.sh:*)",
+      "Bash(tools/coverage.sh:*)",
+      "Bash(./tools/coverage.sh:*)",
+      "Bash(tools/preview.py:*)",
+      "Bash(./tools/preview.py:*)",
+      "Bash(tools/palette.py:*)",
+      "Bash(./tools/palette.py:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git push origin main)"
+    ],
+    "ask": []
+  }
+}
