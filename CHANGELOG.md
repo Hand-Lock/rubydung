@@ -1,0 +1,31 @@
+# Changelog
+
+Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-privacy.md`).
+
+## [Unreleased]
+
+### Added
+
+- First release: the May 2009 pre-Classic ("RubyDung") textures for
+  Minecraft 1.20.1, extended to modern blocks and items.
+- RubyDung stone, and its pattern recoloured for andesite, diorite,
+  granite, tuff, calcite, deepslate and blackstone.
+- Every ore, in stone and deepslate, overlaid on RubyDung stone.
+- Emerald becomes Ruby: red gem, ore and block, renamed in English.
+- Cobblestone and mossy cobblestone with pre-Classic contrast.
+- Sand, gravel, sandstone and the suspicious variants.
+- Bright, top-only grass.
+- The RubyDung plank and the Classic 0.0.11a sapling, re-palettised for
+  every wood type; leaves for every tree; log bark with a shared end.
+- Hole-less doors for every wood and iron, block and item.
+- Border-less glass, stained and tinted; ice as the first, opaque glass.
+- Static early water and lava.
+- Iron, gold, diamond, ruby, netherite and copper blocks; TNT, cobweb,
+  bricks, end stone.
+- Torches, soul and redstone torches with their own models.
+- The blue orchid becomes the Cyan Flower.
+- Double-headed axes in every tier, black flint and steel, raw ores,
+  nether star, pufferfish.
+- Grey creeper (by ArkyFursblack), grey ender dragon, Steve.
+- Sun, moon phases, end sky, the sea and stage paintings, spyglass scope.
