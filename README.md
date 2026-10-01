@@ -15,18 +15,18 @@ This pack lets you wander modern worlds while wearing that primordial skin, fait
 
 | Category | Highlights |
 |----------|------------|
-| **Stone Family** | • *Pre-classic* stone everywhere—deepslate, granite, and friends all inherit the raw RubyDung pattern.<br>• Ores are simply overlaid on that same stone to keep the look cohesive, **with some additional shadows / highlighting for hard-to-see colour combinations (like coal).** |
+| **Stone Family** | • *Pre-classic* stone everywhere—deepslate, granite, and friends all inherit the raw RubyDung pattern.<br>• Polished stones, smooth stone and stone bricks are cut from that same pattern.<br>• Ores are simply overlaid on that same stone to keep the look cohesive, **with some additional shadows / highlighting for hard-to-see colour combinations (like coal).** |
 | **Ruby** | Emerald becomes **Ruby**, a nod to the name: red gem, red ore and a Block of Ruby, renamed in-game too (English). |
 | **Cobble & Moss** | Cobblestone uses a **post-beta 1.7** shape but with the fierce contrast of the earlier era.<br>Mossy cobble follows suit (because mossy *stone* made zero sense). |
 | **Grass & Foliage** | Top-only **bright-green** grass that keeps its own colour (no biome tint); pair it with my [Fast Better Grass: Untinted Edition](https://modrinth.com/resourcepack/fast-better-grass-untinted-edition) for full-block coverage.<br>First-ever leaves + faithful recolours for every modern wood type; leaves keep their own colours (no biome tint).<br>Earliest sapling sprite, adapted across all species.<br>The blue orchid becomes the **Cyan Flower**. |
 | **Wood & Planks** | The lone RubyDung plank palette, palettized to each modern log—surprisingly classy! Every log shares the same old-school end. |
 | **Sand, Gravel & Derivatives** | Original coarse textures for sand & gravel, with matching sandstone / suspicious variants; red sand and red sandstone follow the same shapes. |
-| **Mineral Blocks** | Iron, gold, diamond, ruby, netherite, lapis, redstone and coal blocks share one shiny 2009-style pattern; raw iron, gold and copper blocks use the RubyDung rock pattern. |
-| **Glass & Ice** | • Ice → the *very* first glass sprite (opaque, frosty).<br>• Glass → the border-less second-iteration texture, plus stained & tinted adaptations. |
+| **Mineral Blocks** | Iron, gold, diamond, ruby, netherite, lapis, redstone and coal blocks share one shiny 2009-style pattern, and cut copper splits it into four panels; raw iron, gold and copper blocks use the RubyDung rock pattern. |
+| **Glass & Ice** | • Ice → the *very* first glass sprite (opaque, frosty).<br>• Glass → the border-less second-iteration texture, plus stained & tinted adaptations; pane edges match. |
 | **Liquids** | Original water / lava graphics, now gently animated; lava keeps its blazing 2009 colours. |
 | **Bedrock** | The speckled Classic-to-Beta bedrock instead of the 1.14 redesign. |
 | **Torches** | Torch, soul torch and redstone torch with their own chunky models. |
-| **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron.<br>• Ruby, raw ores, nether star, pufferfish. |
+| **Items** | • Double-headed axes in every tier.<br>• Black flint-and-steel icon.<br>• Hole-less door icons for every wood and iron (trapdoors are hole-less too).<br>• Ruby, raw ores, nether star, pufferfish. |
 | **Mobs** | Grey creeper (by ArkyFursblack), grey ender dragon and Steve. |
 | **Sky & Art** | Sun, moon phases, end sky, the *sea* and *stage* paintings, and the spyglass scope. |
 

@@ -27,6 +27,11 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - Red sand and red sandstone (plain, cut, chiseled) in the sandstone shapes.
 - Lapis, redstone and coal blocks with the mineral block shine; raw iron,
   gold and copper blocks on the rock pattern.
+- Cut copper in all four stages, as four small copper panels.
+- Polished andesite, diorite, granite and deepslate, smooth stone and stone
+  bricks, cut from the RubyDung rock pattern.
+- Hole-less trapdoors to match the doors.
+- Glass pane edges that match the border-less glass.
 - Iron, gold, diamond, ruby, netherite and copper blocks; TNT, cobweb,
   bricks, end stone.
 - Torches, soul and redstone torches with their own models.

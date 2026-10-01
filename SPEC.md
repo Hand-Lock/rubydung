@@ -37,7 +37,7 @@ Pack order, top to bottom:
 
 ## Coverage
 
-`tools/coverage.sh` lists what's missing. Today: 168 of 928 vanilla block
+`tools/coverage.sh` lists what's missing. Today: 204 of 928 vanilla block
 textures, 25 of 582 item textures.
 
 ### Blocks
@@ -46,8 +46,9 @@ textures, 25 of 582 item textures.
 |---|---|---|
 | Stone | stone, andesite, diorite, granite, tuff, calcite, deepslate, cobbled deepslate, blackstone | RubyDung rock pattern, recoloured; deepslate and blackstone tops are the side texture |
 | Ores | coal, iron, gold, copper, lapis, redstone, diamond, ruby (emerald); all eight in deepslate too | ore pattern on RubyDung stone |
+| Stone derivatives | polished andesite, diorite, granite and deepslate; smooth stone (block and slab side); stone bricks | the stone's rock pattern with softened cracks and a bevel frame; bricks in vanilla's layout with black mortar |
 | Cobblestone | cobblestone, mossy cobblestone | post-Beta 1.7 shape, pre-Classic contrast |
-| Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, lapis, redstone, coal, copper (plain, exposed, weathered, oxidized) | the iron block shine, recoloured; cube_all models for the first five |
+| Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, lapis, redstone, coal, copper (plain, exposed, weathered, oxidized); cut copper (all four) | the iron block shine, recoloured; cut copper is four small panels in the copper colours; cube_all models for the first five |
 | Raw ore blocks | raw iron, raw gold, raw copper | RubyDung rock pattern in the raw item's colours; green patina in raw copper's cracks |
 | Sand and gravel | sand, gravel, sandstone (side, top, bottom), cut and chiseled sandstone, suspicious sand and gravel (all stages); red sand and the same red sandstone set | red ones are the pack's sand family recoloured to vanilla red sand, keeping each pixel's brightness |
 | Grass | grass block top | bright green, top only; untinted `grass_block.json` (`cube_bottom_top`, no side overlay, as Golden Days Alpha) |
@@ -56,7 +57,8 @@ textures, 25 of 582 item textures.
 | Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
 | Saplings | oak, spruce, birch, jungle, acacia, dark oak, cherry | Classic 0.0.11a sapling, re-palettised |
 | Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item |
-| Glass | glass, tinted glass, all 16 stained glass | border-less second glass sprite |
+| Trapdoors | oak, jungle, acacia, mangrove, cherry, crimson, warped, iron | the base trapdoor with its holes filled from the pack's door bottom; spruce, birch and dark oak are already solid in the base |
+| Glass | glass, tinted glass, all 16 stained glass; their pane edges | border-less second glass sprite; pane edges are its middle two columns |
 | Ice | ice, packed ice, blue ice, frosted ice (all stages) | ice is the first, opaque glass sprite |
 | Liquids | water (still, flow, overlay), lava (still, flow) | animated by scrolling the 2009 tiles; water greyscale (vanilla tint), lava in its 2009 colours |
 | Other | TNT, cobweb, cyan flower (blue orchid), bricks, end stone, end stone bricks, bedrock | bedrock is rd-161348 tile 17, the Classic-to-Beta texture |
