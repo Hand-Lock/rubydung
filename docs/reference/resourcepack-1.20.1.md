@@ -95,11 +95,17 @@ texture comes out darker or shifted unless its model drops `tintindex`:
 
 - Grass colormap: `grass_block_top`, `grass_block_side_overlay`, `grass`,
   `tall_grass`, `fern`, `large_fern`, sugar cane.
-- Foliage colormap: oak, jungle, acacia, dark oak and mangrove leaves, vines.
-- Fixed: birch leaves `#80a755`, spruce leaves `#619961`, lily pad.
+- Foliage colormap: oak, jungle, acacia and dark oak leaves, vines.
+- Fixed: birch leaves `#80a755`, spruce leaves `#619961`, mangrove leaves
+  `#92c648`, lily pad.
 - Not tinted: cherry and azalea leaves.
 - Water: `water_still` / `water_flow` / `water_overlay` are tinted by the
   biome water colour, so vanilla keeps them greyscale.
+
+This pack re-parents its coloured leaves to `block/cube_all`, which has no
+`tintindex`; the leaf items inherit it. `item/generated` tints every layer
+for tinted items (grass, fern, vine…), so an untinted flat item would need
+an elements model; that is why plants are left to the base pack.
 
 ## Built-in (entity) renderers
 

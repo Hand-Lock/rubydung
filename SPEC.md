@@ -50,7 +50,7 @@ textures, 25 of 582 item textures.
 | Grass | grass block top | bright green, top only |
 | Wood: planks | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped | RubyDung plank, re-palettised |
 | Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
-| Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | |
+| Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
 | Saplings | oak, spruce, birch, jungle, acacia, dark oak, cherry | Classic 0.0.11a sapling, re-palettised |
 | Doors | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped, iron | hole-less; block and item |
 | Glass | glass, tinted glass, all 16 stained glass | border-less second glass sprite |
@@ -95,12 +95,12 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 `tools/check.sh` warning.
 
 - **Liquids are static.** Water and lava have one frame each.
-- **Biome tint.** `grass_block_top` and the oak, jungle, acacia, dark oak
-  and mangrove leaves are coloured textures, but vanilla models still
-  multiply them by the biome colour (birch and spruce by a fixed colour), so
-  they look darker or shifted in game. To check in game; fixing it means
-  models without `tintindex`. (Water is greyscale, as vanilla, so its tint
-  is fine.)
+- **Biome tint.** Vanilla tints grass, leaves and some plants. The leaves
+  are coloured textures, so the pack gives them `cube_all` models without
+  `tintindex`. `grass_block_top` is coloured too but its model stays
+  vanilla: it relies on Fast Better Grass: Untinted Edition. Other tinted
+  plants (grass, ferns, vines, lily pad, sugar cane) come from the base pack.
+  Water is greyscale, as vanilla, so its tint is fine.
 - **Shield**: `item/shield.png` does nothing; 1.20.1 draws the shield from
   `entity/shield_base*.png`.
 - **Cherry logs** in the world use the vanilla `cherry_log_x/y/z` models,
@@ -121,7 +121,7 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 
 - **R1 — 1.0.0**: first release of the current pack, with the setup fixes.
 - **R2 — Liquids**: animated water and lava from the early liquid tiles;
-  decide the biome tint question for grass, leaves and water.
+  decide the biome tint question for water.
 - **R3 — Gear**: shield via `entity/shield_base*.png`; studded-leather
   armor repurposed for netherite (`models/armor/netherite_layer_1/2.png`);
   dirt and grass side from rd-160052.

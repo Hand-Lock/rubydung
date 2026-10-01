@@ -18,6 +18,7 @@ Versions: [SemVer](https://semver.org/) (see `docs/adr/0004-license-release-priv
 - Bright, top-only grass.
 - The RubyDung plank and the Classic 0.0.11a sapling, re-palettised for
   every wood type; leaves for every tree; log bark with a shared end.
+- Leaves keep their own colours: no biome or fixed tint.
 - Hole-less doors for every wood and iron, block and item.
 - Border-less glass, stained and tinted; ice as the first, opaque glass.
 - Static early water and lava.
