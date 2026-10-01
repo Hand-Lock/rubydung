@@ -61,6 +61,7 @@ assets/minecraft/
   textures/painting/, misc/   two paintings, spyglass scope
   models/block/           logs (shared oak_log_top end), torches,
                           mineral blocks, untinted leaves
+                          and grass block
   lang/en_us.json         Ruby and Cyan Flower renames
 tools/
   check.sh                offline checks (see below)

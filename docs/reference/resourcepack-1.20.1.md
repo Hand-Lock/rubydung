@@ -103,7 +103,8 @@ texture comes out darker or shifted unless its model drops `tintindex`:
   biome water colour, so vanilla keeps them greyscale.
 
 This pack re-parents its coloured leaves to `block/cube_all`, which has no
-`tintindex`; the leaf items inherit it. `item/generated` tints every layer
+`tintindex`, and ships the vanilla grass block elements model with every
+`tintindex` removed; the items inherit both. `item/generated` tints every layer
 for tinted items (grass, fern, vine…), so an untinted flat item would need
 an elements model; that is why plants are left to the base pack.
 

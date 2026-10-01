@@ -49,7 +49,7 @@ textures, 25 of 582 item textures.
 | Cobblestone | cobblestone, mossy cobblestone | post-Beta 1.7 shape, pre-Classic contrast |
 | Mineral blocks | iron, gold, diamond, ruby (emerald), netherite, copper (plain, exposed, weathered, oxidized) | cube_all models for the first five |
 | Sand and gravel | sand, gravel, sandstone (side, top, bottom), cut and chiseled sandstone, suspicious sand and gravel (all stages) | |
-| Grass | grass block top | bright green, top only |
+| Grass | grass block top | bright green, top only; untinted `grass_block.json` (top and side overlay) |
 | Wood: planks | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, warped | RubyDung plank, re-palettised |
 | Wood: logs | bark for oak, spruce, jungle, acacia, dark oak, mangrove; models for those plus birch and cherry | every log end is `oak_log_top`; sideways mangrove logs use `cube_column` on purpose, not `cube_column_horizontal` |
 | Leaves | oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, azalea, flowering azalea | untinted (`cube_all` models) |
@@ -99,8 +99,8 @@ From the setup audit (2026-10-01). Each one is either a roadmap item or a
 - **Liquids are static.** Water and lava have one frame each.
 - **Biome tint.** Vanilla tints grass, leaves and some plants. The leaves
   are coloured textures, so the pack gives them `cube_all` models without
-  `tintindex`. `grass_block_top` is coloured too but its model stays
-  vanilla: it relies on Fast Better Grass: Untinted Edition. Other tinted
+  `tintindex`. `grass_block_top` is coloured too, so the pack's
+  `grass_block.json` drops the tint on the top and side overlay. Other tinted
   plants (grass, ferns, vines, lily pad, sugar cane) come from the base pack.
   Water is greyscale, as vanilla, so its tint is fine.
 - **Shield**: `item/shield.png` does nothing; 1.20.1 draws the shield from
